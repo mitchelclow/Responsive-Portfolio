@@ -1,0 +1,373 @@
+.frank {
+    border: none;
+    height: 3px;
+    width: 600px;
+    color: #d7dadd;
+    background-color: #d7dadd;
+
+}
+
+
+#name {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #4aaaa5;
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: white;
+	font-size: 35px;
+	width: 20%;
+	text-align: center;
+}
+
+
+#tabs {
+position: absolute;
+top: 35px;
+right: 400px;
+font-size: 18px;
+}
+
+
+#heading {
+display: inline-block;
+  width: 1500px;
+  height: 75px;
+  margin: 1em;
+}
+
+header
+{
+    padding: 50px
+    color: white;
+    background-color: #ffffff;
+ 	margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+body {
+	background-image: url('http://i.imgur.com/3k8zPNL.png');
+	font-style: #777777;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+#neon {
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#headphones {
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#nobs {
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+#ipad {
+	float: left;
+	margin-bottom: 20px;
+}
+
+#earbuds {
+	float: left;
+	margin-left: 20px;
+	z-index: 1;
+}
+
+
+
+#tabs {
+	float: left;
+}
+
+.roger {
+	display: inline-block;
+	width: 650px;
+	background-color: white;
+	position: absolute;
+	top: 135px;
+	left: 103px;
+	}
+
+.chloe {
+	display: inline-block;
+	width: 270px;
+	height: 200px;
+	background-color: white;
+	text-align:center;
+	position: absolute;
+	right: 395px;
+	top: 135px;
+}
+
+.peter
+{
+	border: none;
+    height: 2px;
+    width: 220px;
+    color: #ebeef4;
+    background-color: #ebeef4;
+}
+
+.charlie
+{
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color:#777777;
+}
+
+h2
+{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+}
+
+h3
+{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 25px;
+}
+
+.footer
+{
+	display: inline-block;
+	width: 100%;
+	height: 70px;
+	background-color: #75777a;
+	text-align: center;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #cbced3;
+	font-size: 12px;
+	position:absolute;
+	bottom:0;
+	clear: both;
+}
+
+.bluebar
+
+{
+	display: inline-block;
+	width: 100%;
+	height: 7px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 70px;
+}
+
+#sally
+
+{
+	float: left;
+	margin: 10px;
+	padding-left: 14px;
+}
+
+#jack
+
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.7;
+	color: #777777;
+	padding-left: 20px;
+	padding-right: 7px;
+}
+
+#vick
+
+{
+	position: absolute;
+	top: 0px;
+	left: 25px;
+}
+
+#fletcher
+
+{
+	display: inline-block;
+	width: 300px;
+	height: 53px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 568px;
+	left: 20px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 2;
+}
+
+#alone
+
+{
+	display: inline-block;
+	width: 300px;
+	height: 53px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 568px;
+	left: 330px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 2;
+}
+
+#this
+
+{
+	display: inline-block;
+	width: 300px;
+	height: 53px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 344px;
+	left: 20px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 2;
+}
+
+
+#waiting
+{
+	display: inline-block;
+	width: 300px;
+	height: 53px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 344px;
+	left: 330px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 2;
+}
+
+
+#flash
+{
+	display: inline-block;
+	width: 300px;
+	height: 53px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 121px;
+	left: 20px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	line-height: 2;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
+
+
+.subscribe
+{
+	display: inline-block;
+	width: 100%;
+	height: 70px;
+	background-color: #75777a;
+	text-align: center;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #cbced3;
+	font-size: 12px;
+	position: absolute;
+	bottom: -485px;
+}
+
+.ben
+
+{
+	display: inline-block;
+	width: 100%;
+	height: 7px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: -415px;
+}
+
+#dark
+
+{
+	position: absolute;
+	left: 25px;
+	width: 115%;
+}
+
+#houses
+
+{
+	position: absolute;
+	left: 25px;
+	width: 115%;
+}
+
+#waves
+
+{
+	position: absolute;
+	left: 25px;
+	width: 115%;
+}
+
+#german
+
+{
+	position: absolute;
+	left: 25px;
+	bottom: 5px;
+}
+
+#plus
+
+{
+	position: absolute;
+	left: 22px;
+	top: -4px;
+}
+
+#storm
+
+{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #4f4f4f;
+}
+
+a
+
+{
+
+	color: #969696;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.tube
+
+{
+	color: #edeeef;
+}
