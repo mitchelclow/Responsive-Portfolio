@@ -1,150 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Mitchel Clow</title>
-
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-<style> 
-input {
-    width: 80%;
-}
-</style>
-
+  <title>Contact | Mitchel Clow</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<container id="heading">
+<body>
 
-<header id="header">
-  <section id="name">
-    Mitchel Clow
-  </section>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Mitchel Clow</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <p id="tabs">
-<a style="text-decoration:none;" href="index.html">About</a> &ensp;<container class="tube">|</container> &ensp;
-<a style="text-decoration:none;" href="portfolio.html">Portfolio</a>&ensp;<container class="tube">|</container> &ensp;
-<a style="text-decoration:none;" href="contact.html">Contact</a>
-  </p>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-</header>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-</container>
+    </section>
 
-<container class="roger">
-<br>
-  
-  <container id="plus">
-  <h2>Contact</h2>
-  </container>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-  <br>
-  <br>
-  <br>
+         <a href="https://github.com/"><img src="assets/images/githubsecond.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/mitchelclow/"><img src="assets/images/linkedinsecond.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/7865750/mitchel-clow"><img src="assets/images/stackoverflowsecond.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
-<hr class="frank">
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Mitchel Clow
+    </div>
+  </footer>
+</body>
 
-<br>
-
-  	<div id="container">
-  <form action="/action_page.php">
-
-   <!--  <label for="fname">Name</label>
-    <br>
-    <input type="text" id="fname" name="firstname" placeholder="John Smith"> -->
-
-<container id="dark">
-<form>
-  <container id="storm">
-  <label for="fname">Name</label>
-  </container>
-  <br>
-  <input type="text" id="fname" name="fname" placeholder="John Smith">
-</form>
-</container>
-
-    <br>
-    <br>
-    <br>
-
-  <!--   <label for="lname">Email</label>
-    <br>
-    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com"> -->
-
-    <container id="houses">
-<form>
-  <label for="fname">Email</label>
-  <br>
-  <input type="text" id="fname" name="fname" placeholder="example@gmail.com">
-</form>
-</container>
-
-    <br>
-    <br>
-    <br>
-
-<container id="waves">
-
-    <label for="subject">Message</label>
-    <br>
-    <textarea id="subject" name="subject" placeholder=" " style="width:80%; height:200px"></textarea>
-
-</container>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <container id="german">
-    <input type="submit" value="Submit" style="background-color: #4aaaa5; cursor: pointer; border: none; width: 115px; height: 40px; color: white; font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px">
-    </container>
-
-  </form>
-</div>
-
-</container>
-
-<container class="chloe">
-  <div>
-  	<h3>Connect with Me</h3>
-  	
-    <hr class="peter">
-
-  	<a href="https://github.com/mitchelclow"> <img src="assets/images/githubsecond.png" alt="github" style="width:60px; height:60px;"></a>
-
-    <a href="https://www.linkedin.com/in/mitchelclow/"> <img src="assets/images/linkedinsecond.png" alt="linkedin" style="width:60px; height:60px;"></a>
-
-    <a href="http://stackoverflow.com/users/7865750/mitchel-clow"> <img src="assets/images/stackoverflowsecond.jpg" alt="stackoverflow" style="width:55px; height:55px;"></a>
- 	</div>
-</container>
-  <br>
-  <br>
- 	<br>
-
-
-<container class="bluebar">
-</container>
-
-<container class="footer">
-<br>
-<br>
-© Copyright 2016 Mitchel Clow
-</container>
-
-<!--   Background patterns from Subtle Patterns https://www.toptal.com/designers/subtlepatterns/ -->
- 	</body>
-
- 	</html>
+</html>
