@@ -303,13 +303,15 @@ input[type=submit] {
     width: 100%;
   }
 
-  #main-section{
-    width: 100%;
+  .main-section{
+    width: 700px;
+    margin-top: 57px;
+    margin-left: 59px;
        }
 
   .sidebar{
-    width: 100%;
-    clear: both;
+    max-width: 654px;
+    margin-right: 56px;
   }
 
   footer{
