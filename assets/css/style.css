@@ -261,12 +261,16 @@ input[type=submit] {
     width: 100%;
   }
 
-  #main-section{
-    width: 100%;
+  .main-section{
+    width: 543px;
+    margin-top: 58px;
+    margin-left: 45px;
        }
 
   .sidebar{
     width: 100%;
+    margin-top: 58px;
+    margin-right: 61px;
   }
 
   footer{
