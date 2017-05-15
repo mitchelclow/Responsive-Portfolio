@@ -344,9 +344,11 @@ input[type=submit] {
 
   #logo{
     width: 100%;
+    margin-left: 0px;
   }
   nav{
-    width: 100%;
+    width: 640px;
+    margin-right: -175px;
   }
 
   #main-container{
@@ -355,7 +357,7 @@ input[type=submit] {
 
   .main-section{
     max-width: 600px;
-    margin-top: 40px;
+    margin-top: -118px;
     margin-left: 25px;
        }
 
